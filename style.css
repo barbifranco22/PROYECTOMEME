@@ -89,6 +89,13 @@ a   {
     text-decoration: none;
     color: black;
 }
+
+.middle     {
+    display: flex;
+    justify-content: center;
+    
+}
+
 .text-image {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
@@ -121,6 +128,17 @@ a   {
     justify-content: center;
 }
 
+
+
+.boton-descarga {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-download {
+    background-color: green;
+}
 .aside-ocultar   {
     width: 30%;
     /* background-color: #bf5f82; */

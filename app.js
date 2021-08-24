@@ -15,20 +15,6 @@ function cambioModoOscuro(){
 }
 
 
-//--------------- botones header 
 
 
-const botonImg = document.getElementById ('btn-imagen');
-const solapaImagen = document.getElementById ('solapa-imagen');
-const botonTxt = document.getElementById ('btn-texto');
-const solapaTexto = document.getElementById ('solapa-texto');
 
-botonImg.addEventListener('click', () => {
-  solapaImagen.style.display = 'block'
-  solapaTexto.style.display = 'none';
-});
-
-botonTxt.addEventListener('click', () => {
-  solapaTexto.style.display = 'block'
-  solapaImagen.style.display = 'none'
-});
